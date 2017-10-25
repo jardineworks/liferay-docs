@@ -98,7 +98,7 @@ to update your application:
             public String displayStyle();
 	
             @Meta.AD(deflt = "0", required = false)
-            public long displayStyleGroupId(long defaultDisplayStyleGroupId);
+            public long displayStyleGroupId();
         }
 
 4. In the code above replace [category] with a category name of your choice. Out
